@@ -1,5 +1,5 @@
 .cover__link {
-    height: calc(100vw / 1.6);
+    height: 740px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,4 +27,10 @@
   
   .cover__link:hover:before {
     opacity: 0.8;
+  }
+
+  @media screen and (max-width: 1184px) {
+    .cover__link {
+      height: calc(100vw / 1.6);
+    }
   }

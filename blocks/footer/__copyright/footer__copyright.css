@@ -3,6 +3,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    align-self: flex-end;
     margin: 0;
     padding: 0;
 }
@@ -10,5 +11,6 @@
 @media screen and (max-width: 767px) {
     .footer__copyright {
         line-height: 14px;
+        align-self: flex-start;
     }
 }
