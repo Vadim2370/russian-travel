@@ -1,9 +1,9 @@
 .cover__wrap {
-    display: block;
+    display: inline;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
     .cover__wrap {
-        display: inline;
+        display: block;
     }
 }
